@@ -1,2 +1,2 @@
 # azure-bicep-production-project
-Azure Infrastructure Project
+Azure Production Infrastructure using Bicep
