@@ -10,4 +10,18 @@ This repository documents my journey of learning Infrastructure as Code using Az
 - Learn Git and GitHub
 - Prepare for Azure DevOps Engineer roles
 
-> Work in progress 🚧
+## Current Status
+
+🚧 Project initialization
+
+## Planned Infrastructure
+
+- Virtual Network
+- Network Security Groups
+- Storage Account
+- Windows Virtual Machines
+- Azure Bastion
+- Internal Load Balancer
+- Virtual Network Peering
+- Private Endpoints
+- Azure Private DNS
