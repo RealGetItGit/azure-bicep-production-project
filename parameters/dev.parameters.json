@@ -1,0 +1,17 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": { "value": "centralus" },
+        "vnetConfig": {
+            "value": {
+                "name": "vnet-dev-eus",
+                "vnetaddressPrefix": ["10.0.0.0/16"],
+                "subnets": [
+                    { "name": "subnet-dev-eus-web", "subnetaddressPrefix": "10.0.0.0/24" },
+                    { "name": "subnet-dev-eus-db", "subnetaddressPrefix": "10.0.1.0/24" }
+                ]
+            }
+        }
+    }
+}
